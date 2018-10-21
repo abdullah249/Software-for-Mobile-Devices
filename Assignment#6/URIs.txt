@@ -1,0 +1,31 @@
+Alarms:
+RingtoneManager.TYPE_ALARM
+
+Blocked Numbers:
+BlockedNumbers.CONTENT_URI
+
+Browser:
+String url = "http://www.stackoverflow.com";
+Intent i = new Intent(Intent.ACTION_VIEW);
+i.setData(Uri.parse(url));
+
+
+Calender:
+Calendars.CONTENT_URI
+
+Call logs:
+CallLog.Calls.CONTENT_TYPE
+
+Document Contract:
+DocumentsContract.Document
+
+
+Live Folder:
+Uri.parse("content://my.app/live");
+
+Media:
+Uri.parse(uri.toString().replace("file:/", "file:///"));
+
+
+SMS:
+Uri.parse("content://sms/");
