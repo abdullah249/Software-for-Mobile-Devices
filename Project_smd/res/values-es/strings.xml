@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Project2</string>
+    <string name="email">Email</string>
+    <string name="password" translatable="false">" Contraseña"</string>
+    <string name="Brands" translatable="false">Las marcas</string>
+    <string name="name">nombre</string>
+    <string name="signup">" Regístrate"</string>
+</resources>
